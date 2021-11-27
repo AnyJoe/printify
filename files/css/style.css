@@ -53,7 +53,20 @@
 /************************** 
 * 2. miscelnious styles 
 ***************************/
+/***
+
+====================================================================
+	Hidding Google Translate
+====================================================================
+
+***/
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+  } 
+
 body {
+  top: 0px !important; 
   font-family: 'Rubik';
   color: #757575;
   font-size: 18px;
